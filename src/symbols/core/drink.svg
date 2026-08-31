@@ -1,0 +1,15 @@
+<svg viewBox="0 0 128 128" width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="16" fill="#E8F5E9" stroke="#388E3C" stroke-width="4"/>
+  <g stroke="#212121" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Profile Head -->
+    <path d="M 50 18 C 62 18, 70 26, 70 36 C 70 41, 66 44, 62 44 L 56 44 L 62 48 C 64 52, 58 56, 50 56 C 38 56, 34 46, 34 36 C 34 26, 40 18, 50 18 Z" stroke-width="4" fill="#FFFFFF"/>
+    <!-- Torso Spine -->
+    <line x1="48" y1="56" x2="48" y2="88" stroke-width="4"/>
+    <!-- Arm Tilting Cup -->
+    <path d="M 48 64 L 80 76 L 76 48" stroke-width="4"/>
+    <!-- Drinking Glass Tilted -->
+    <polygon points="68,40 82,34 88,48 74,54" stroke="#388E3C" stroke-width="3" fill="#FFFFFF"/>
+    <!-- Legs -->
+    <path d="M 38 116 L 48 88 L 62 116" stroke-width="4"/>
+  </g>
+</svg>

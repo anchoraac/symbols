@@ -1,0 +1,16 @@
+<svg viewBox="0 0 128 128" width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="16" fill="#E8F5E9" stroke="#388E3C" stroke-width="4"/>
+  <g stroke="#212121" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <circle cx="54" cy="30" r="13" stroke-width="4" fill="#FFFFFF"/>
+    <!-- Leaning Torso -->
+    <line x1="56" y1="43" x2="60" y2="82" stroke-width="4"/>
+    <!-- Upper Arm Reaching -->
+    <path d="M 58 52 L 86 54 L 98 48" stroke-width="4"/>
+    <!-- Lower Arm Reaching Parallel -->
+    <path d="M 58 56 L 84 66 L 96 60" stroke-width="4"/>
+    <!-- Cupped Palm Arc -->
+    <path d="M 96 46 C 104 54, 104 60, 96 62" stroke-width="3" stroke="#388E3C"/>
+    <!-- Legs -->
+    <path d="M 46 116 L 60 82 L 74 116" stroke-width="4"/>
+  </g>
+</svg>

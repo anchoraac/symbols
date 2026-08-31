@@ -1,0 +1,17 @@
+<svg viewBox="0 0 128 128" width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="16" fill="#FFEBEE" stroke="#D32F2F" stroke-width="4"/>
+  <g stroke="#212121" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Head -->
+    <circle cx="56" cy="32" r="13" stroke-width="4" fill="#FFFFFF"/>
+    <!-- Spine -->
+    <line x1="56" y1="45" x2="56" y2="82" stroke-width="4"/>
+    <!-- Resting Left Arm -->
+    <path d="M 56 52 L 36 72" stroke-width="4"/>
+    <!-- Raised Right Arm -->
+    <path d="M 56 52 L 86 52 L 86 36" stroke-width="4"/>
+    <!-- Open Hand Barrier Pad -->
+    <rect x="80" y="24" width="12" height="12" rx="3" fill="#D32F2F" stroke="#D32F2F" stroke-width="2"/>
+    <!-- Static Stance Legs -->
+    <path d="M 44 116 L 56 82 L 68 116" stroke-width="4"/>
+  </g>
+</svg>

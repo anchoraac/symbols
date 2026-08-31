@@ -1,0 +1,16 @@
+<svg viewBox="0 0 128 128" width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="16" fill="#E8F5E9" stroke="#388E3C" stroke-width="4"/>
+  <g stroke="#212121" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Lower Supporting Hand/Arm Base -->
+    <path d="M 22 96 L 54 96 L 78 86" stroke-width="4"/>
+    <path d="M 54 96 L 78 96" stroke-width="4"/>
+    <!-- Upper Supported Form (Hand/Body Rising) -->
+    <circle cx="64" cy="38" r="14" stroke-width="4" fill="#FFFFFF"/>
+    <path d="M 64 52 L 64 78" stroke-width="4"/>
+    <!-- Elevation Vector Indicator -->
+    <g stroke="#388E3C" stroke-width="3">
+      <line x1="94" y1="78" x2="94" y2="44"/>
+      <polyline points="86,52 94,44 102,52"/>
+    </g>
+  </g>
+</svg>
