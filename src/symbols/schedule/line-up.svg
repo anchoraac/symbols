@@ -1,0 +1,19 @@
+<svg viewBox="0 0 128 128" width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="16" fill="#E8F5E9" stroke="#388E3C" stroke-width="4"/>
+  <g stroke="#388E3C" stroke-width="3" stroke-linecap="round" fill="none">
+    <line x1="86" y1="26" x2="108" y2="26"/>
+    <polyline points="102,20 108,26 102,32"/>
+  </g>
+  <line x1="20" y1="106" x2="108" y2="106" stroke="#388E3C" stroke-width="4" stroke-linecap="round"/>
+  <g stroke="#212121" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <circle cx="86" cy="48" r="8" fill="#FFFFFF"/>
+    <line x1="86" y1="56" x2="86" y2="82"/>
+    <path d="M 80 104 L 86 82 L 92 104"/>
+    <circle cx="58" cy="48" r="8" fill="#FFFFFF"/>
+    <line x1="58" y1="56" x2="58" y2="82"/>
+    <path d="M 52 104 L 58 82 L 64 104"/>
+    <circle cx="30" cy="48" r="8" fill="#FFFFFF"/>
+    <line x1="30" y1="56" x2="30" y2="82"/>
+    <path d="M 24 104 L 30 82 L 36 104"/>
+  </g>
+</svg>

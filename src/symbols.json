@@ -1,0 +1,22 @@
+[
+  { "id": "i", "label": "I", "path": "src/symbols/core/i.svg", "category": "pronoun", "fitzgeraldColor": "yellow", "tags": ["me", "myself", "self", "person"] },
+  { "id": "you", "label": "You", "path": "src/symbols/core/you.svg", "category": "pronoun", "fitzgeraldColor": "yellow", "tags": ["friend", "teacher", "other", "person"] },
+  { "id": "go", "label": "Go", "path": "src/symbols/core/go.svg", "category": "verb", "fitzgeraldColor": "green", "tags": ["move", "start", "walk", "run", "leave"] },
+  { "id": "stop", "label": "Stop", "path": "src/symbols/core/stop.svg", "category": "negation", "fitzgeraldColor": "red", "tags": ["halt", "wait", "freeze", "no", "dont"] },
+  { "id": "want", "label": "Want", "path": "src/symbols/core/want.svg", "category": "verb", "fitzgeraldColor": "green", "tags": ["need", "request", "please", "give"] },
+  { "id": "more", "label": "More", "path": "src/symbols/core/more.svg", "category": "descriptor", "fitzgeraldColor": "blue", "tags": ["again", "extra", "add", "another"] },
+  { "id": "eat", "label": "Eat", "path": "src/symbols/core/eat.svg", "category": "verb", "fitzgeraldColor": "green", "tags": ["food", "snack", "lunch", "hungry", "bite"] },
+  { "id": "drink", "label": "Drink", "path": "src/symbols/core/drink.svg", "category": "verb", "fitzgeraldColor": "green", "tags": ["water", "juice", "milk", "thirsty", "cup"] },
+  { "id": "help", "label": "Help", "path": "src/symbols/core/help.svg", "category": "verb", "fitzgeraldColor": "green", "tags": ["assist", "support", "aid", "teacher"] },
+  { "id": "finished", "label": "Finished", "path": "src/symbols/core/finished.svg", "category": "descriptor", "fitzgeraldColor": "blue", "tags": ["all done", "done", "complete", "stop", "clean up"] },
+  { "id": "bathroom", "label": "Bathroom", "path": "src/symbols/schedule/bathroom.svg", "category": "noun", "fitzgeraldColor": "orange", "tags": ["restroom", "toilet", "potty"] },
+  { "id": "wash-hands", "label": "Wash Hands", "path": "src/symbols/schedule/wash-hands.svg", "category": "verb", "fitzgeraldColor": "green", "tags": ["clean", "soap", "water", "sink"] },
+  { "id": "recess", "label": "Recess", "path": "src/symbols/schedule/recess.svg", "category": "noun", "fitzgeraldColor": "orange", "tags": ["outside", "playground", "play", "swing"] },
+  { "id": "snack", "label": "Snack", "path": "src/symbols/schedule/snack.svg", "category": "noun", "fitzgeraldColor": "orange", "tags": ["food", "eat", "lunch", "apple", "cracker"] },
+  { "id": "circle-time", "label": "Circle Time", "path": "src/symbols/schedule/circle-time.svg", "category": "noun", "fitzgeraldColor": "orange", "tags": ["rug", "morning meeting", "calendar", "together"] },
+  { "id": "line-up", "label": "Line Up", "path": "src/symbols/schedule/line-up.svg", "category": "verb", "fitzgeraldColor": "green", "tags": ["door", "walk", "hallway", "stand"] },
+  { "id": "centers", "label": "Centers", "path": "src/symbols/schedule/centers.svg", "category": "noun", "fitzgeraldColor": "orange", "tags": ["stations", "rotation", "small group", "work"] },
+  { "id": "sensory-break", "label": "Sensory Break", "path": "src/symbols/schedule/sensory-break.svg", "category": "descriptor", "fitzgeraldColor": "blue", "tags": ["calm", "headphones", "rest", "break"] },
+  { "id": "backpack", "label": "Backpack", "path": "src/symbols/schedule/backpack.svg", "category": "noun", "fitzgeraldColor": "orange", "tags": ["pack", "cubby", "bag", "home"] },
+  { "id": "quiet-corner", "label": "Quiet Corner", "path": "src/symbols/schedule/quiet-corner.svg", "category": "descriptor", "fitzgeraldColor": "blue", "tags": ["safe space", "beanbag", "calm down", "chill"] }
+]
