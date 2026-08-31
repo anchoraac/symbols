@@ -1,0 +1,8 @@
+<svg viewBox="0 0 128 128" width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+  <g id="primitive-humanoid" stroke="#212121" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <circle id="head" cx="64" cy="30" r="14" fill="#FFFFFF"/>
+    <line id="torso" x1="64" y1="44" x2="64" y2="82"/>
+    <path id="arms" d="M 42 66 L 64 50 L 86 66"/>
+    <path id="legs" d="M 46 116 L 64 82 L 82 116"/>
+  </g>
+</svg>
