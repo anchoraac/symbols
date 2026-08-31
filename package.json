@@ -1,0 +1,15 @@
+{
+  "name": "@anchoraac/symbols",
+  "version": "0.1.0",
+  "description": "Open-source core vocabulary and visual schedule symbol standard for AAC",
+  "main": "src/symbols.json",
+  "license": "MIT AND CC-BY-4.0",
+  "author": "AnchorAAC",
+  "keywords": [
+    "aac",
+    "symbols",
+    "special-education",
+    "communication",
+    "svg"
+  ]
+}
