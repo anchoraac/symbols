@@ -1,7 +1,18 @@
-# Creative Commons Attribution 4.0 International Public License
+# AnchorAAC Artwork License
 
-This license applies exclusively to the SVG artwork and graphic visual assets located in the `src/symbols/` directory of the AnchorAAC project. 
+All original SVG artwork and graphic assets located under:
 
-All software code, scripts, and configuration files in this repository are licensed separately under the MIT License (see `LICENSE`).
+`src/symbols/`
 
-You are free to share and adapt the material for any purpose, even commercially, under the condition that you provide appropriate attribution to AnchorAAC.
+are licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+
+You may share and adapt these assets for educational, personal, and commercial purposes, provided appropriate attribution is given.
+
+A reasonable attribution is:
+
+> AnchorAAC Symbols — CC BY 4.0 — https://github.com/anchoraac/symbols
+
+The software code, scripts, configuration files, metadata, schemas, and documentation in this repository are licensed separately under the MIT License unless otherwise stated.
+
+License text:
+https://creativecommons.org/licenses/by/4.0/

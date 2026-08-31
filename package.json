@@ -1,15 +1,42 @@
 {
   "name": "@anchoraac/symbols",
   "version": "0.1.0",
-  "description": "Open-source core vocabulary and visual schedule symbol standard for AAC",
+  "description": "Open-source AAC symbol library for core vocabulary and classroom visual schedules",
+  "type": "module",
   "main": "src/symbols.json",
-  "license": "MIT AND CC-BY-4.0",
+  "exports": {
+    "./symbols.json": "./src/symbols.json",
+    "./tokens.json": "./tokens/tokens.json",
+    "./symbols/*": "./src/symbols/*"
+  },
+  "files": [
+    "src/symbols",
+    "src/symbols.json",
+    "tokens",
+    "LICENSE",
+    "LICENSE-ASSETS.md",
+    "README.md"
+  ],
+  "scripts": {
+    "validate": "node scripts/validate-symbols.mjs",
+    "optimize": "svgo -rf src/symbols"
+  },
+  "license": "SEE LICENSE IN LICENSE AND LICENSE-ASSETS.md",
   "author": "AnchorAAC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anchoraac/symbols.git"
+  },
   "keywords": [
     "aac",
     "symbols",
     "special-education",
     "communication",
-    "svg"
-  ]
+    "svg",
+    "visual-schedule"
+  ],
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "svgo": "^3.3.2"
+  }
 }
