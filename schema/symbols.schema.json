@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://anchoraac.org/schema/symbols.schema.json",
+  "title": "AnchorAAC symbol metadata",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "label",
+      "path",
+      "category",
+      "fitzgeraldColor",
+      "tags"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "label": {
+        "type": "string",
+        "minLength": 1
+      },
+      "path": {
+        "type": "string",
+        "pattern": "^src/symbols/.+\\.svg$"
+      },
+      "category": {
+        "enum": [
+          "pronoun",
+          "verb",
+          "noun",
+          "descriptor",
+          "social",
+          "negation",
+          "preposition"
+        ]
+      },
+      "fitzgeraldColor": {
+        "enum": [
+          "yellow",
+          "green",
+          "orange",
+          "blue",
+          "pink",
+          "red",
+          "purple"
+        ]
+      },
+      "kind": {
+        "enum": [
+          "core",
+          "schedule",
+          "fringe",
+          "social",
+          "classroom"
+        ]
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uniqueItems": true
+      },
+      "aliases": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uniqueItems": true
+      }
+    }
+  }
+}
